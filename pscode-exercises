@@ -10,9 +10,29 @@ add the 2 number together
 print on the screen the sum of those 2 numbers
 
 
-// Exercise 2: Check if a Number is Even or Odd
+//the answer of exercice 1
+Display"enter number 1"
+Input the first number from the user and store it in a variable called num1
+int num1= 3;
+Display"enter number 2"
+Input the second number from the user and store it in variable called num2
+int num2= 1;
+Add the two numbers together and store the result in a variable called sum
+Display "sum" ="num 1" + "num 2"
+Console.WriteLine(num1+num2)
+sum= 4
 
-(Your pseudocode here)
+
+
+// Exercise 2: Check if a Number is Even or Odd
+int sum=4;
+if (4 % 2) ||(4==0){
+    Console.Writeline(the number is even);
+}
+else{
+  Console.WriteLine(the number is odd);  
+}
+
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -22,6 +42,46 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
+Display "enter num1"
+Input the first number from the user and store it in a variable called num1
+Display"enter num2"
+Input the second number from the user and store it in a variable called num2
+Display "enter num3"
+Input the third number from the user and store it in a variable called num3
+Display"enter num4"
+Input the fourth number from the user and store it in a variable called num4
+Display"enter num5"
+Input the sixth number from the user and store it in a variable called num5
+
+
+Total= num1+num2+num3+num4+num5
+Average= total/5
+
+min = num1
+max = num1
+
+ IF num2 < min THEN
+        min = num2
+    IF num3 < min THEN
+        min = num3
+    IF num4 < min THEN
+        min = num4
+    IF num5 < min THEN
+        min = num5
+
+    IF num2 > max THEN
+        max = num2
+    IF num3 > max THEN
+        max = num3
+    IF num4 > max THEN
+        max = num4
+    IF num5 > max THEN
+        max = num5
+
+
+    PRINT "The average of the five numbers is: " + average
+    PRINT "The smallest number is: " + min
+    PRINT "The largest number is: " + max
+
 
 -- END --
